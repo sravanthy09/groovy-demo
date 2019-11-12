@@ -13,6 +13,6 @@ def lib(){
     import groovyx.net.http.Method.*
     import net.sf.json.*
         
-        def x = new HTTPBuilder("https://www.google.com/")
+       
 
 }
