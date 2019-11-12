@@ -4,7 +4,8 @@
 
 def lib(){
     import groovy.grape.Grape
-    @Grab(group ='org.codehaus.groovy.modules.http-builder', module='http-builder', version='0.5.2')
+    @Grapes(
+    @Grab(group ='org.codehaus.groovy.modules.http-builder', module='http-builder', version='0.5.2')   )
 
 
     import groovyx.net.http.*
